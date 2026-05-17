@@ -5,6 +5,6 @@ OBD: Ontology of Bipolar Disorder
 
 ## Citation:
 
-Tian, Y., He, Y., Richesson, R., Mclnnis, M. (2025). [Integrative Ontology of Bipolar Disorder (OBD): Advancing Bipolar Disorder Research Through an Interoperable Ontological Framework](https://link.springer.com/chapter/10.1007/978-3-031-75599-6_13). In: Saeki, M., et al. Advances in Conceptual Modeling. ER 2024. Lecture Notes in Computer Science, vol 14932. Springer, Cham. https://doi.org/10.1007/978-3-031-75599-6_13. 
+Tian, Y., He, Y., Richesson, R., Mclnnis, M. (2025). [Integrative Ontology of Bipolar Disorder (OBD): Advancing Bipolar Disorder Research Through an Interoperable Ontological Framework](https://link.springer.com/chapter/10.1007/978-3-031-75599-6_13). In: Saeki, M., et al. Advances in Conceptual Modeling. ER 2024. Lecture Notes in Computer Science, vol 14932. Springer, Cham. DOI: https://doi.org/10.1007/978-3-031-75599-6_13. 
 
 
