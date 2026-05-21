@@ -1,5 +1,5 @@
-# OBD
-OBD: Ontology of Bipolar Disorder
+# BDON
+BDON: Bipolar Disorder Ontology
   
 Bipolar disorder results from a combination of genetic, social factors, personal characteristics, and brain function. The complex clinical manifestations of bipolar disorder pose challenges in medical diagnosis. To integrate the  large amounts of heterogeneous bipolar disease knowledge, data, and metadata from different data sources, we propose the development of an interoperable ontology of bipolar disorder (OBD) as a systematic framework to integrate these diverse resources. 
 
