@@ -75,7 +75,7 @@ The previous name of BDON was OBD (Ontology of Bipolar Disorder). Due to updated
 
 ## Related Publication
 
-Tian, Y., He, Y., Richesson, R., Mclnnis, M. (2025). Integrative Ontology of Bipolar Disorder (OBD): Advancing Bipolar Disorder Research Through an Interoperable Ontological Framework. In: Saeki, M., et al. Advances in Conceptual Modeling. ER 2024. Lecture Notes in Computer Science, vol 14932. Springer, Cham. DOI: https://doi.org/10.1007/978-3-031-75599-6_13.<img width="468" height="125" alt="image" src="https://github.com/user-attachments/assets/f5b773d5-b181-478d-bfaa-39df1bf2f681" />
+Tian, Y., He, Y., Richesson, R., & McInnis, M. (2025). Integrative Ontology of Bipolar Disorder (OBD): Advancing Bipolar Disorder Research Through an Interoperable Ontological Framework. In: Saeki, M., et al. Advances in Conceptual Modeling. ER 2024. Lecture Notes in Computer Science, vol 14932. Springer, Cham.
 
 ## Versions
 
