@@ -4,13 +4,13 @@
 
 BDON (Bipolar Disorder Ontology) is an application ontology designed to support the semantic representation, integration, and analysis of bipolar disorder and related mental health data. The ontology aims to model the complex multi-level factors associated with bipolar disorder, including:
 
-  ·genetic factors
-  ·emotional states
-  ·life experiences
-  ·medical histories
-  ·motivational processes
-  ·sleep and circadian patterns
-  ·cognitive and thought patterns
+  - genetic factors
+  - emotional states
+  - life experiences
+  - medical histories
+  - motivational processes
+  - sleep and circadian patterns
+  - cognitive and thought patterns
 
 BDON represents how these factors interact with each other over time and contribute to the development, progression, and heterogeneity of bipolar disorder.
 
