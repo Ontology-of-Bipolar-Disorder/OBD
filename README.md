@@ -64,9 +64,9 @@ More information can be found at http://obofoundry.org/ontology/bdon
 
 BDON is developed following OBO Foundry principles.
 
-Upper ontology: Basic Formal Ontology (BFO)
-Development and Maintenance: Ontology Development Kit (ODK)
-Representation languages: OWL / RDF
+  - Upper ontology: Basic Formal Ontology (BFO)
+  - Development and Maintenance: Ontology Development Kit (ODK)
+  - Representation languages: OWL / RDF
 
 ## Project History
 
