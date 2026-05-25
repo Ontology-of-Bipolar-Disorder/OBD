@@ -14,7 +14,7 @@ BDON (Bipolar Disorder Ontology) is an application ontology designed to support 
 
 BDON represents how these factors interact with each other over time and contribute to the development, progression, and heterogeneity of bipolar disorder.
 
-### Semantic Harmonization of Mental Health Assessments
+#### Semantic Harmonization of Mental Health Assessments
 One major goal of BDON is to support the semantic harmonization and phenotyping of heterogeneous mental health assessment instruments. Mental health research commonly relies on multiple questionnaires and clinical instruments, such as:
 
   ·PHQ-9
