@@ -1,0 +1,23 @@
+id: bdon
+title: "Bipolar Disorder Ontology"
+github_org: Bipolar-Disorder-Ontology
+repo: BDON
+git_main_branch: main
+release_artefacts:
+  - base
+  - full
+  - simple
+primary_release: full
+export_formats:
+  - owl
+  - obo
+  - json
+import_group:
+  products:
+    - id: bfo
+    - id: hp
+    - id: doid
+    - id: cl
+robot_java_args: '-Xmx8G'
+documentation:
+  documentation_system: mkdocs
