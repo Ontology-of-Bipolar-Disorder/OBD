@@ -1,0 +1,1224 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/BICL#"
+     xml:base="http://purl.obolibrary.org/obo/BICL"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/BICL"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DesignNote</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DesignNote</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DesignNote</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DesignNote</obo:NCIT_P107>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P98</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P310">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept_Status</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property used to indicate the standing of a concept in relation to currently accepted classifications and concepts. In NCI Thesaurus concept status subtype indicates concepts with unusual and problematic characteristics that should be evaluated by people and/or programs before those concept are used.</obo:IAO_0000115>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept Status</obo:NCIT_P107>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept_Status</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept_Status</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P310</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributing_Source</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property is used to indicate when a non-EVS entity has contributed to, and has a stake in, a concept. This is used where such entities, within or outside NCI, have indicated the need to be able to track their own concepts. A single concept can have multiple instances of this property if multiple entities have such a defined stake.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributing Source</obo:NCIT_P107>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributing_Source</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributing_Source</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P322</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legacy Concept Name</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing a retired unique concept identifier created and stored as Concept Name by legacy EVS software. Use of these values was long discouraged, but continued as late as 2009 when creation of new values ceased and Concept Name was retired. Legacy values are intended solely to help resolve and update earlier coding.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legacy Concept Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legacy Concept Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legacy_Concept_Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P366</obo:NCIT_NHC0>
+        <protege:readOnly rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</protege:readOnly>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DEFINITION</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P375">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maps_To</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing that a term in another terminology has been mapped to a term in NCIt and describes the relationship between the mapped terms.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maps_To</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maps_To</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P375</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xRef</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing a reference to an identical or very similar object in another database.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xRef</obo:NCIT_P108>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A32">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_Value_For_GDC_Property</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A32</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that that connects a concept representing a GDC value to any associated GDC property concept(s).</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_Value_For_GDC_Property</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_Value_For_GDC_Property</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A31">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_GDC_Value</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A31</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that connects a concept representing a GDC property to its dedicated value concept(s).</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_GDC_Value</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_GDC_Value</obo:NCIT_P108>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has exact synonym</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FULL_SYN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Synonym with Source Data</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALT_DEFINITION</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing the English language definition of a concept from a source other than NCI.</obo:IAO_0000115>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALT_DEFINITION</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALT_DEFINITION</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P325</obo:NCIT_NHC0>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[source] Definition</obo:NCIT_P107>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic_Type</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P98 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In general, applying semantic types aids in allowing users (or computer programs) to draw conclusions about concepts by virtue of the categories to which they have been assigned.  We use a set of semantic types developed for the UMLS Metathesaurus. There are currently 134 semantic types in the UMLS.</obo:NCIT_P98>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P106</obo:NCIT_NHC0>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic Type</obo:NCIT_P107>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic_Type</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic_Type</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">label</rdfs:label>
+    </rdf:Description>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in subset</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept_In_Subset</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">code</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing a concept unique identifier within the NCI Enterprise Vocabulary Service&#39;s NCI Thesaurus.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NHC0</obo:NCIT_NHC0>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">code</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">code</oboInOwl:hasExactSynonym>
+        <protege:readOnly rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</protege:readOnly>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P208">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI_META_CUI</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing the concept unique identifier (CUI) for those concepts that appear in NCI Metathesaurus but not in the National Library of Medicine Unified Medical Language System (NLM UMLS).</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Metathesaurus CUI</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI_META_CUI</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI_META_CUI</obo:NCIT_P108>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P208</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Display_Name</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing an alternative Preferred Name for use in some NCI systems.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Display Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Display Name</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Display_Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Display_Name</obo:NCIT_P108>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P107</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#readOnly"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P317">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDA_Table</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property used to flag terms that are part of an FDA data standard manual, including Route of Administration, Dosage Form, Package Type and Potency.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDA Table</obo:NCIT_P107>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDA_Table</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDA_Table</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P317</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred_Name</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing the word or phrase that NCI uses by preference to refer to the concept.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P108</obo:NCIT_NHC0>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred Name</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred Name</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred Term</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred_Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred_Name</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing the concept unique identifier (CUI) assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P207</obo:NCIT_NHC0>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI</obo:NCIT_P107>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C171128">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neoplastic Endocrine Pancreas Disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27067"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C53505"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A non-neoplastic disorder that affects the endocrine pancreas.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C171128</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL1405371</obo:NCIT_P208>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neoplastic Endocrine Pancreas Disorder</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neoplastic Endocrine Pancreas Disorder</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C192882 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C192882">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode Non-Neoplastic Disease/Finding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C7057"/>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C192882</obo:NCIT_NHC0>
+        <obo:NCIT_P208 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL1913058</obo:NCIT_P208>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminology related to non-neoplastic diseases and findings that was developed to support the efforts of Minimal Common Oncology Data Elements (mCode), a data standard designed to increase high-quality data for all cancer types.</obo:IAO_0000115>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode Non-Neoplastic Disease/Finding</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode Non-Neoplastic Disease/Finding</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195866 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195866">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Hypomanic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Hypomanic</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Hypomanic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, current episode hypomanic</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0236765</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195866</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, current episode hypomanic.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195867 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195867">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Manic without Psychotic Features, Unspecified</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Manic without Psychotic Features, Unspecified</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Manic without Psychotic Features, Unspecified</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, current episode manic without psychotic features, unspecified</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195867</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874874</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, current episode manic without psychotic features.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195868 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195868">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Manic without Psychotic Features, Mild</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Manic without Psychotic Features, Mild</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Manic without Psychotic Features, Mild</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, current episode manic without psychotic features, mild</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195868</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874875</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder that is current episode manic without psychotic features that is mild.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195869 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195869">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Manic without Psychotic Features, Moderate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Manic without Psychotic Features, Moderate</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Manic without Psychotic Features, Moderate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, current episode manic without psychotic features, moderate</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195869</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874876</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder that is current episode manic without psychotic features that is moderate.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195870 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195870">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Manic without Psychotic Features, Severe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Manic without Psychotic Features, Severe</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Manic without Psychotic Features, Severe</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, current episode manic without psychotic features, severe</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195870</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874877</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder that is current episode manic without psychotic features that is severe.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195871 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195871">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Manic Severe with Psychotic Features</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Manic Severe with Psychotic Features</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Manic Severe with Psychotic Features</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, current episode manic severe with psychotic features</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195871</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874880</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, current episode manic severe with psychotic features.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195872 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195872">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Depressed, Mild or Moderate Severity, Unspecified</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Depressed, Mild or Moderate Severity, Unspecified</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Depressed, Mild or Moderate Severity, Unspecified</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, current episode depressed, mild or moderate severity, unspecified</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195872</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874882</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, current episode depressed that is mild or moderate severity.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195873">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Depressed, Mild</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Depressed, Mild</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Depressed, Mild</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, current episode depressed, mild</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195873</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874883</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, current episode depressed that is mild.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195874 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195874">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Depressed, Moderate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Depressed, Moderate</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Depressed, Moderate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, current episode depressed, moderate</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195874</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874884</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, current episode depressed that is moderate.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195875 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195875">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Depressed, Severe, without Psychotic Features</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Depressed, Severe, without Psychotic Features</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Depressed, Severe, without Psychotic Features</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, current episode depressed, severe, without psychotic features</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195875</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874885</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, current episode depressed that is severe without psychotic features.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195876 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195876">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Depressed, Severe, with Psychotic Features</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Depressed, Severe, with Psychotic Features</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Depressed, Severe, with Psychotic Features</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, current episode depressed, severe, with psychotic features</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195876</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874888</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, current episode depressed that is severe with psychotic features.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195877 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195877">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Mixed, Unspecified</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Mixed, Unspecified</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Mixed, Unspecified</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, current episode mixed, unspecified</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195877</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874890</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, current episode mixed.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195878 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195878">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Mixed, Mild</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Mixed, Mild</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Mixed, Mild</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, current episode mixed, mild</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195878</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874891</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, current episode mixed, mild.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195879 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195879">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Mixed, Moderate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Mixed, Moderate</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Mixed, Moderate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, current episode mixed, moderate</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195879</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874892</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, current episode mixed, moderate.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195880 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195880">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Mixed, Severe, without Psychotic Features</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Mixed, Severe, without Psychotic Features</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Mixed, Severe, without Psychotic Features</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, current episode mixed, severe, without psychotic features</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195880</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874893</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, current episode mixed, severe without psychotic features.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195881 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195881">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Mixed, Severe, with Psychotic Features</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Mixed, Severe, with Psychotic Features</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Current Episode Mixed, Severe, with Psychotic Features</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, current episode mixed, severe, with psychotic features</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195881</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874896</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, current episode mixed, severe with psychotic features.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195882 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195882">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Currently in Remission, Most Recent Episode Unspecified</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Currently in Remission, Most Recent Episode Unspecified</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, Currently in Remission, Most Recent Episode Unspecified</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, currently in remission, most recent episode unspecified</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195882</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874898</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, currently in remission, most recent episode unspecified.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195883 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195883">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Partial Remission, Most Recent Episode Hypomanic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Partial Remission, Most Recent Episode Hypomanic</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Partial Remission, Most Recent Episode Hypomanic</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, in partial remission, most recent episode hypomanic</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195883</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874899</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, in partial remission, most recent episode hypomanic.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195884 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195884">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Full Remission, Most Recent Episode Hypomanic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Full Remission, Most Recent Episode Hypomanic</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Full Remission, Most Recent Episode Hypomanic</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, in full remission, most recent episode hypomanic</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195884</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874900</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, in full remission, most recent episode hypomanic.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195885 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195885">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Partial Remission, Most Recent Episode Manic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Partial Remission, Most Recent Episode Manic</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Partial Remission, Most Recent Episode Manic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, in partial remission, most recent episode manic</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195885</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874901</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, in partial remission, most recent episode manic.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195886 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195886">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Full Remission, Most Recent Episode Manic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Full Remission, Most Recent Episode Manic</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Full Remission, Most Recent Episode Manic</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, in full remission, most recent episode manic</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195886</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874902</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, in full remission, most recent episode manic.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195887 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195887">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Partial Remission, Most Recent Episode Depressed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Partial Remission, Most Recent Episode Depressed</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Partial Remission, Most Recent Episode Depressed</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, in partial remission, most recent episode depressed</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195887</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874903</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, in partial remission, most recent episode depressed.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195888 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195888">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Full Remission, Most Recent Episode Depressed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Full Remission, Most Recent Episode Depressed</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Full Remission, Most Recent Episode Depressed</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, in full remission, most recent episode depressed</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195888</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874904</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, in full remission, most recent episode depressed.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195889 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195889">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Partial Remission, Most Recent Episode Mixed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Partial Remission, Most Recent Episode Mixed</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Partial Remission, Most Recent Episode Mixed</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, in partial remission, most recent episode mixed</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195889</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874905</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, in partial remission, most recent episode mixed.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195890 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195890">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Full Remission, Most Recent Episode Mixed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Full Remission, Most Recent Episode Mixed</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder, in Full Remission, Most Recent Episode Mixed</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, in full remission, most recent episode mixed</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195890</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2874906</obo:NCIT_P207>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of bipolar disorder, in full remission, most recent episode mixed.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C195891 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C195891">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other Bipolar Disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192882"/>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1456308</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C195891</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence of other bipolar disorder not specified elsewhere.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other Bipolar Disorder</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other Bipolar Disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other bipolar disorder</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C197849 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C197849">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar II Disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C34423"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bipolar disorder in which at least one episode of major depression alternates with at least one episode of hypomania. In contrast to bipolar I disorder, affected individuals do not experience any manic episodes.</obo:IAO_0000115>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar II Disorder</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar II Disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar II disorder</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0236788</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C197849</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental or Behavioral Dysfunction</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C197963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C197963">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schizoaffective Disorder, Bipolar Type</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2893"/>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0270496</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C197963</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental or Behavioral Dysfunction</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schizoaffective Disorder, Bipolar Type</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schizoaffective Disorder, Bipolar Type</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schizoaffective disorder with episodes of mania and depression.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schizoaffective disorder, bipolar type</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C26842 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C26842">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pancreatic Disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2990"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A non-neoplastic or neoplastic disorder that affects the pancreas.  Representative examples of non-neoplastic disorders include pancreatitis and pancreatic insufficiency.  Representative examples of neoplastic disorders include cystadenomas, carcinomas, lymphomas, and neuroendocrine neoplasms.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0030286</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C26842</obo:NCIT_NHC0>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease of pancreas, unspecified</obo:NCIT_P375>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pancreatic Disorder</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pancreatic Disorder</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pancreatic_Disorder</obo:NCIT_P366>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unspecified disease of pancreas</obo:NCIT_P375>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C27067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C27067">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endocrine Pancreas Disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26842"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27551"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A non-neoplastic or neoplastic disorder that affects the endocrine pancreatic tissue (islets of Langerhans). Representative examples include diabetes mellitus and neuroendocrine neoplasms.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0271633</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C27067</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease or Syndrome</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endocrine Pancreas Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endocrine Pancreas Disorder</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endocrine Pancreas Disorder</obo:NCIT_P108>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endocrine_Pancreas_Disorder</obo:NCIT_P366>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C27550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C27550">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neoplastic Digestive System Disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2990"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2991"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A non-neoplastic disorder that affects the gastrointestinal tract, anus, liver, biliary system, and pancreas. Representative examples include infections, ulcers, cirrhosis, and diverticulosis.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1335011</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C27550</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease or Syndrome</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neoplastic Digestive System Disorder</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neoplastic Digestive System Disorder</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neoplastic Gastrointestinal Disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neoplastic Gastrointestinal System Disorder</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neoplastic_Gastrointestinal_Disorder</obo:NCIT_P366>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C27551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C27551">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disorder by Site</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2991"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A term that refers to the classification of a disorder according to the anatomic site that is involved in the pathologic process.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1333305</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C27551</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease by Site</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disorder by Site</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disorder by Site</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disorder_by_Site</obo:NCIT_P366>
+        <obo:NCIT_P310 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Header_Concept</obo:NCIT_P310>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2893 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C2893">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychiatric Disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2991"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disorder characterized by behavioral and/or psychological abnormalities, often accompanied by physical symptoms. The symptoms may cause clinically significant distress or impairment in social and occupational areas of functioning. Representative examples include anxiety disorders, cognitive disorders, mood disorders and schizophrenia.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0004936</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2893</obo:NCIT_NHC0>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CPTAC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental Disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental Dysfunction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental Illness</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental or Behavioral Dysfunction</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NICHD</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCDC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychiatric Disease</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychiatric Disorder</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychiatric Disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychiatric disorder</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychiatric_Disorder</obo:NCIT_P366>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SeroNet</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158035"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158520"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C179027"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186336"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186341"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C189083"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2982 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C2982">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depression</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C171128"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92200"/>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A condition marked by ongoing feelings of sadness, despair, loss of energy, diminished interest/pleasure and difficulty dealing with normal daily life.</obo:NCIT_P325>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disorder characterized by melancholic feelings of grief or unhappiness.</obo:NCIT_P325>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A melancholy feeling of sadness and despair.</obo:IAO_0000115>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mental condition marked by ongoing feelings of sadness, despair, loss of energy, and difficulty dealing with normal daily life. Other symptoms of depression include feelings of worthlessness and hopelessness, loss of pleasure in activities, changes in eating or sleeping habits, and thoughts of death or suicide. Depression can affect anyone, and can be successfully treated. Depression affects 15-25% of cancer patients.</obo:NCIT_P325>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2982</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3277399</obo:NCIT_P207>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTCAE</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cellosaurus</obo:NCIT_P322>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depression</obo:NCIT_P107>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depression</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depression</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depression</obo:NCIT_P375>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depression</obo:NCIT_P108>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDA</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDC</obo:NCIT_P322>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMDRF:E020202</oboInOwl:hasDbXref>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental or Behavioral Dysfunction</obo:NCIT_P106>
+        <obo:NCIT_P317 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient Code (Appendix B)</obo:NCIT_P317>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SeroNet</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">depression</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118168"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C165258"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C179027"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C189083"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C192842"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54450"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C62596"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77964"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16457"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2990 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C2990">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digestive System Disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27551"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A non-neoplastic or neoplastic disorder that affects the gastrointestinal tract, anus, liver, biliary system, and pancreas.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0017178</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2990</obo:NCIT_NHC0>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CPTAC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digestive Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digestive System Disease</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digestive System Disorder</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digestive System Disorder</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease or Syndrome</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disorder of Digestive System</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GI Disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gastrointestinal Disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gastrointestinal System Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gastrointestinal System Disorder</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gastrointestinal_Disorder</obo:NCIT_P366>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMDRF:E1033</oboInOwl:hasDbXref>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NICHD</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCDC</obo:NCIT_P322>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The report describes a non-specific problem with the gastrointestinal system. Note: Please use &quot;Appropriate Term / Code Not Available&quot; if the report describes a specific problem but the relevant term does not exist.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unspecified Gastrointestinal Problem</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stomach or intestinal disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158035"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158520"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186336"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186341"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54450"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C62596"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C99147"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2991 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C2991">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease or Disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C7057"/>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any abnormal condition of the body or mind that causes discomfort, dysfunction, or distress to the affected person. NOTE: The term is often used broadly to include injuries, disabilities, syndromes, symptoms, deviant behaviors, and atypical variations of structure and function. [After NCI Thesaurus] See also diagnosis.</obo:NCIT_P325>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any abnormal condition of the body or mind that causes discomfort, dysfunction, or distress to the person affected or those in contact with the person. The term is often used broadly to include injuries, disabilities, syndromes, symptoms, deviant behaviors, and atypical variations of structure and function.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0012634</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2991</obo:NCIT_NHC0>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC-GLOSS</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTDC</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRP</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condition</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease or Disorder</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease or Disorder</obo:NCIT_P107>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease or Disorder</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease or Disorder, Non-Neoplastic</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease or Syndrome</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases and Disorders</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases_and_Disorders</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disorders</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDC</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICDC</obo:NCIT_P322>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMDRF:E23</oboInOwl:hasDbXref>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In medicine, a health problem with certain characteristics or symptoms.</obo:NCIT_P325>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NICHD</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">condition</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease term</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease type</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_term</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_type</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118168"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C138188"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C138189"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C165451"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C166373"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173072"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C175324"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177536"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C99147"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C184783"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C184784"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3055"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3059"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3161"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3172"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3208"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3230"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3247"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3262"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3286"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3411"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3422"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3468"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3708"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3709"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3723"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3743"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3784"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3786"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3787"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3792"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C40141"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4063"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4197"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4198"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4248"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43234"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4345"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4463"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4665"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48660"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4972"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C7056"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C7387"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C7539"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C9295"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C9343"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C9357"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C9360"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C34423 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C34423">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92200"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disorder of the brain that causes unusual shifts in mood, energy, activity levels and the ability to carry out day-to-day tasks. Often these moods range and shift from periods of elation and energized behavior to those of hopelessness and depression.</obo:IAO_0000115>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar disorder, unspecified</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar_Disorder</obo:NCIT_P366>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0005586</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34423</obo:NCIT_NHC0>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cellosaurus</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manic Depressive Disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manic-Depression</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental or Behavioral Dysfunction</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NICHD</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C165258"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C192842"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C97150"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C34424 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C34424">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Depression</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2982"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C34423"/>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Depression</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar Depression</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolar_Depression</obo:NCIT_P366>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0005587</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34424</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental or Behavioral Dysfunction</obo:NCIT_P106>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The depressive stage of bipolar disorder.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C34805 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C34805">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manic Bipolar Affective Disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C34423"/>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0024713</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34805</obo:NCIT_NHC0>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cellosaurus</obo:NCIT_P322>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manic Bipolar Affective Disorder</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manic Bipolar Affective Disorder</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manic_Bipolar_Affective_Disorder</obo:NCIT_P366>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental or Behavioral Dysfunction</obo:NCIT_P106>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The manic phase of bipolar disorder.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C165258"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C192842"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C53505 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C53505">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neoplastic Pancreatic Disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26842"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27550"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A non-neoplastic disorder that affects the pancreas. Representative examples include pancreatitis and pancreatic insufficiency.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1709252</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C53505</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neoplastic Pancreatic Disorder</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neoplastic Pancreatic Disorder</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Neoplastic_Pancreatic_Disorder</obo:NCIT_P366>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C7057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C7057">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease, Disorder or Finding</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A condition that is relevant to human neoplasms and non-neoplastic disorders.  This includes observations, test results, history and other concepts relevant to the characterization of human pathologic conditions.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1511989</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C7057</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease, Disorder or Finding</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease, Disorder or Finding</obo:NCIT_P108>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diseases_Disorders_and_Findings</obo:NCIT_P366>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C92200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C92200">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mood Disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2893"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A category of psychiatric disorders which have as their most predominant feature a disturbance in mood.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0525045</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C92200</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental or Behavioral Dysfunction</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mood Disorder</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mood Disorder</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unspecified mood [affective] disorder</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

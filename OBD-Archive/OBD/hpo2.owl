@@ -1,0 +1,1010 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/BICL#"
+     xml:base="http://purl.obolibrary.org/obo/BICL"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/BICL"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/date"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <rdfs:label>id</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date">
+        <rdfs:label>creation date</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label>has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000001">
+        <rdfs:label>All</rdfs:label>
+        <oboInOwl:id>HP:0000001</oboInOwl:id>
+        <oboInOwl:hasDbXref>UMLS:C0444868</oboInOwl:hasDbXref>
+        <rdfs:comment>Root of all terms in the Human Phenotype Ontology.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000118">
+        <rdfs:label>Phenotypic abnormality</rdfs:label>
+        <oboInOwl:hasDbXref>UMLS:C4021819</oboInOwl:hasDbXref>
+        <rdfs:comment>This is the root of the phenotypic abnormality subontology of the HPO.</rdfs:comment>
+        <oboInOwl:id>HP:0000118</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>Organ abnormality</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A phenotypic abnormality.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000140">
+        <rdfs:label>Abnormality of the menstrual cycle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:hasDbXref>UMLS:C3549779</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C4025888</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Abnormality of the menstrual cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0000140</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym>Menstrual abnormalities</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115>An abnormality of the ovulation cycle.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000708">
+        <rdfs:label>Atypical behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011446"/>
+        <oboInOwl:hasExactSynonym>Psychiatric disturbances</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Behavioral disorders</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Behavioural abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Behavioral problems</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:25786006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0233514</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Behavioural/Psychiatric abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Behavioral abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0000708</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>Behavioural disturbances</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasAlternativeId>HP:0002368</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>Behavioral symptoms</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>UMLS:C0004941</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Behavioural problems</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Behavioural disorders</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Psychiatric disorders</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Behavioral changes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Behavioral disturbances</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Behavioural symptoms</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:277843001</oboInOwl:hasDbXref>
+        <oboInOwl:hasAlternativeId>HP:0000715</oboInOwl:hasAlternativeId>
+        <rdfs:comment>Atypical behaviors should include or directly affect observable actions. While behavioral disorders often encompass abnormal thoughts, feelings, perceptions, or other cognitions, these alone would not be considered atypical behavioral features.</rdfs:comment>
+        <oboInOwl:hasAlternativeId>HP:0002456</oboInOwl:hasAlternativeId>
+        <obo:IAO_0000115>Atypical behavior is an abnormality in a person&#39;s actions, which can be controlled or modulated by the will of the individual. While abnormal behaviors can be difficult to control, they are distinct from other abnormal actions that cannot be affected by the individual&#39;s will.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Behavioural changes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Behavioral/psychiatric abnormalities</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Behavioural/psychiatric abnormality</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-8430-6039"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4422-1708"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-3777-1389"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000709">
+        <rdfs:label>Psychosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200430"/>
+        <oboInOwl:hasExactSynonym>Psychosis</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A condition characterized by changes in personality and thought patterns, often accompanied by hallucinations and delusional beliefs, is known as psychosis.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:69322001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0033975</oboInOwl:hasDbXref>
+        <oboInOwl:id>HP:0000709</oboInOwl:id>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-7062-8192"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-7941-2961"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9221-9226"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0183-1637"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1785-7126"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2291-6952"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4958-6025"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000716">
+        <rdfs:label>Depression</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100851"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200275"/>
+        <oboInOwl:hasExactSynonym>Depressive episode</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:21061000119107</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Depressivity</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0000716</oboInOwl:id>
+        <oboInOwl:hasDbXref>UMLS:C0011581</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Frequently experiencing feelings of being down, miserable, and/or hopeless; struggling to recover from these moods; having a pessimistic outlook on the future; feeling a pervasive sense of shame; having a low self-worth; experiencing thoughts of suicide and engaging in suicidal behavior.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Depression</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:35489007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:78667006</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>Depressive disorder</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1111-7357"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7954-5235"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2897-0458"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4298-5074"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4618-6544"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000718">
+        <rdfs:label>Aggressive behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200241"/>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:61372001</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>physical aggression</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>UMLS:C1457883</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Aggressive behavior</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0000718</oboInOwl:id>
+        <obo:IAO_0000115>Behavior or an act aimed at harming a person, animal, or physical property (e.g., acts of physical violence; shouting, swearing, and using harsh language; slashing someone&#39;s tires).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Aggression</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>UMLS:C0001807</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Aggressiveness</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>UMLS:C0424323</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:248004009</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1111-7357"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7954-5235"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2897-0458"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4298-5074"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4618-6544"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000739 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000739">
+        <rdfs:label>Anxiety</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200230"/>
+        <oboInOwl:id>HP:0000739</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>Anxiety</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:48694002</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>Anxiety disease</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>UMLS:C0003467</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Excessive, persistent worry and fear</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anxiousness</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>UMLS:C4020884</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Intense feelings of nervousness, tension, or panic often arise in response to interpersonal stresses. There is worry about the negative effects of past unpleasant experiences and future negative possibilities. Individuals may feel fearful, apprehensive, or threatened by uncertainty, and they may also have fears of falling apart or losing control.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-8430-6039"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0692-412X"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7405-0954"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-0072-5522"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-0224-647X"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-3398-7270"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0004-0873-4444"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002360">
+        <rdfs:label>Sleep abnormality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011446"/>
+        <oboInOwl:hasExactSynonym>Sleep dysfunction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>An abnormal pattern in the quality, quantity, or characteristics of sleep.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:53888004</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Trouble sleeping</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sleep disturbances</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0002360</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>Difficulty sleeping</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>UMLS:C0037317</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Sleep disturbance</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6262-8264"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9446-5121"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1592-0825"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4672-4923"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5554-6946"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7367-663X"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0007018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007018">
+        <rdfs:label>Attention deficit hyperactivity disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100543"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200241"/>
+        <oboInOwl:hasExactSynonym>Childhood attention deficit/hyperactivity disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ADHD</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0007018</oboInOwl:id>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:406506008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:7461003</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Attention deficit-hyperactivity disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>UMLS:C1263846</oboInOwl:hasDbXref>
+        <oboInOwl:hasAlternativeId>HP:0001577</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>HP:0001576</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>Attention deficit</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasAlternativeId>HP:0006973</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>Attention deficit disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Attention deficits</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Attention deficit hyperactivity disorder (ADHD) manifests at age 2-3 years or by first grade at the latest. The main symptoms are distractibility, impulsivity, hyperactivity, and often trouble organizing tasks and projects, difficulty going to sleep, and social problems from being aggressive, loud, or impatient.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0007302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007302">
+        <rdfs:label>Bipolar affective disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200275"/>
+        <oboInOwl:hasExactSynonym>Bipolar depression</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bipolar disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:13746004</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Bipolar disorder is an illness of mood characterized by alternating episodes of elevated and depressed moods, which are interspersed with euthymic periods.</obo:IAO_0000115>
+        <oboInOwl:id>HP:0007302</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>Manic depressive</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>UMLS:C0005586</oboInOwl:hasDbXref>
+        <oboInOwl:hasAlternativeId>HP:0000755</oboInOwl:hasAlternativeId>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1111-7357"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7954-5235"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2897-0458"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4298-5074"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4618-6544"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011446">
+        <rdfs:label>Abnormality of mental function</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <rdfs:comment>This includes abnormalities in speech, mood, emotions, behavior, and cognition.</rdfs:comment>
+        <obo:IAO_0000115>Cognitive, psychiatric, or memory anomaly.</obo:IAO_0000115>
+        <oboInOwl:creation_date>2012-03-18T04:23:59Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>Abnormality of higher mental function</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>UMLS:C4023352</oboInOwl:hasDbXref>
+        <oboInOwl:id>HP:0011446</oboInOwl:id>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-7062-8192"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-7941-2961"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9221-9226"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0183-1637"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1785-7126"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2291-6952"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4958-6025"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011463">
+        <rdfs:label>Childhood onset</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
+        <oboInOwl:hasExactSynonym>Symptoms begin in childhood</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Onset of disease at the age of between 1 and 5 years.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>HP:0003617</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>UMLS:C1837352</oboInOwl:hasDbXref>
+        <rdfs:comment>This term refers to ages up to but not including the fifth birthday (see Juvenile onset).</rdfs:comment>
+        <oboInOwl:hasAlternativeId>HP:0003586</oboInOwl:hasAlternativeId>
+        <oboInOwl:id>HP:0011463</oboInOwl:id>
+        <oboInOwl:creation_date>2012-03-25T07:16:20Z</oboInOwl:creation_date>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030858 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0030858">
+        <rdfs:label>Addictive behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200241"/>
+        <oboInOwl:hasDbXref>UMLS:C0085281</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Addictive behaviour</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>When an activity, substance, object, or behavior becomes a major focus of a person&#39;s life, excluding other activities, or has begun to harm the individual or others physically, mentally, or socially, it can be considered addictive behavior. A person can become addicted or compulsively engaged with anything.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:32709003</oboInOwl:hasDbXref>
+        <rdfs:comment>Several behaviors, besides ingesting psychoactive substances, produce short-term rewards that may lead to persistent behavior despite knowledge of adverse consequences, such as diminished control over the behavior.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6624-2975"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-8430-6039"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2984-1124"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4142-7153"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4422-1708"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4691-7362"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-6581-7754"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7674-1767"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2598-6622"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-3777-1389"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4014-4490"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030955 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0030955">
+        <rdfs:label>Addictive alcohol use</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0030858"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-13T22:59:58Z</dc:date>
+        <oboInOwl:hasExactSynonym>Alcoholism</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>An addictive behavior is defined as drinking excessive amounts of alcohol over a prolonged period of time, having difficulty in reducing the amount of alcohol consumed, strongly desiring alcohol, and experiencing withdrawal symptoms when not drinking alcohol.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Alcohol addiction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6624-2975"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2984-1124"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4691-7362"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-6581-7754"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7674-1767"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2598-6622"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4014-4490"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031466 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031466">
+        <rdfs:label>Impairment in personality functioning</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000708"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-17T16:30:45Z</dc:date>
+        <rdfs:comment>The emergence of the self in childhood and adolescence is based on experience and perception, which then becomes organized into identity, which organizes further experience and perception. Identity is related to the individual&#39;s selfsameness and continuity in time.</rdfs:comment>
+        <obo:IAO_0000115>A maladaptive personality trait characterized by moderate or greater impairment in personality (self /interpersonal) functioning.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031473 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031473">
+        <rdfs:label>Hostility</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100851"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-17T16:45:08Z</dc:date>
+        <obo:IAO_0000115>Persistent or frequent feelings of anger; anger or irritability in response to minor slights and insults.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Hostile</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1111-7357"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7954-5235"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2897-0458"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4298-5074"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4618-6544"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0032443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032443">
+        <rdfs:label>Past medical history</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-03T16:39:26Z</dc:date>
+        <obo:IAO_0000115>In a medical encounter, the physician generally will interview the patient about his or her current problem, and may perform additional testing. The past medical history (PMH) in contrast records information about the patient&#39;s medical, personal and family history that might be relevant to the presenting illness or to provide optimal clinical management. The PMH generally includes (if relevant) other major illnesses, hospitalizations, surgeries, injuries, allergies, gynecologic and obstetric history, family history, personal history including occupational history, alcohol and drug use, etc.</obo:IAO_0000115>
+        <rdfs:comment>This subontology of the HPO is not intended to provide all needed terms to describe the past medical history, but rather to be combined with other ontologies such as MONDO in order to capture information that is often needed to properly assess phenotypic findings related to a presenting medical problem.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0032942 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032942">
+        <rdfs:label>Avoidance of stimuli associated with traumatic event</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200241"/>
+        <obo:IAO_0000115>Avoidance of or efforts to avoid distressing memories, thoughts, or feelings about or closely associated with the traumatic event(s). Avoidance of or efforts to avoid external reminders (people, places, conversations, activities, objects, situations) that arouse distressing memories, thoughts, or feelings about or closely associated with the traumatic event(s).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-8430-6039"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0692-412X"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7405-0954"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-0072-5522"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-0224-647X"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-3398-7270"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0004-0873-4444"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0033511 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033511">
+        <rdfs:label>Addictive substance use</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0030858"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-13T12:11:53Z</dc:date>
+        <oboInOwl:hasExactSynonym>Drug addiction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Addictive drug use</oboInOwl:hasExactSynonym>
+        <rdfs:comment>According to the fifth edition of the Diagnostic and Statistical Manual of Mental Disorders (DSM-5), drug addiction may be characterized by manifestations including: (1) The substance is often taken in larger amounts or over a longer period than was intended; (2) A persistent desire or unsuccessful effort to cut down or control use of the substance; (3) substantial time and effort spent to obtain the substance; (4) Craving; (5) Recurrent use of the substance resulting in a failure to fulfill major obligations; (6) Continued use of the substance despite interpersonal problems caused by substance use; (7) Important social, occupational, or recreational activities are given up (8) Recurrent use of the substance even in situations in which it is physically hazardous; (9) Use of the substance despite awareness of its problematic consequences; (10) Tolerance; and (11) Withdrawal symptoms.</rdfs:comment>
+        <obo:IAO_0000115>Chronic compulsive drug seeking and continued use despite harmful consequences.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6624-2975"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2984-1124"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4691-7362"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-6581-7754"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7674-1767"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2598-6622"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4014-4490"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0033543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033543">
+        <rdfs:label>Addictive nicotine use</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0033511"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-21T12:43:36Z</dc:date>
+        <oboInOwl:hasExactSynonym>Addictive tobacco use</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Nicotine dependence</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Nicotine addiction can be defined as a chronic, compulsive craving for nicotine and continued usage despite harmful consequences.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6624-2975"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2984-1124"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4691-7362"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-6581-7754"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7674-1767"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2598-6622"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4014-4490"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0033665 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033665">
+        <rdfs:label>Diminished health-related quality of life</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-28T14:48:04Z</dc:date>
+        <obo:IAO_0000115>A reduction in an individual&#39;s subjective assessment of his or her sense of well-being and ability to perform social roles.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0033666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033666">
+        <rdfs:label>Diminished physical functioning</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0033665"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-28T14:50:02Z</dc:date>
+        <oboInOwl:hasExactSynonym>Decline in physical functional health</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diminished physical health</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A reduction in the ability to perform activities of daily living as compared to previous abilities because of functional deficits due to illness. The 36-item Short Form (SF-36) health survey questionnaire is one of many methods used to measure patients&#39; perceptions of diminished physical functioning.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0033676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033676">
+        <rdfs:label>Posttraumatic stress symptom</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200230"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-02T00:54:28Z</dc:date>
+        <obo:IAO_0000115>A behavioral or psychological symptom that typically occurs following exposure to one or more traumatic events is posttraumatic stress disorder (PTSD). Symptoms of PTSD include intrusive recollections, such as re-experiencing the trauma through flashbacks, memories, or nightmares. Additionally, individuals may experience avoidant and numbing symptoms, which can include diminished emotions and avoidance of situations that serve as reminders of the traumatic event. Hyperarousal is another symptom, characterized by increased irritability, exaggerated startle reactions, and difficulties with sleeping or concentrating.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>PTSD</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>This term is intended to be used when no additional information is available. If possible, more specific terms should be used.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-8430-6039"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0692-412X"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7405-0954"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-0072-5522"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-0224-647X"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-3398-7270"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0004-0873-4444"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0033688 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033688">
+        <rdfs:label>Long term memory impairment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100543"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-07T22:48:25Z</dc:date>
+        <oboInOwl:hasExactSynonym>Long term memory loss</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A deficit in the ability to retrieve information from long-term memory, which can be defined as a seemingly unlimited capacity to store memories can last years and relate to the performance of actions or skills (i.e., procedural memories, knowing how) and memories of facts, rules, concepts, and events (i.e., declarative memories, knowing that).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100543">
+        <rdfs:label>Cognitive impairment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011446"/>
+        <oboInOwl:creation_date>2010-12-20T06:50:32Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>Cognitive abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Intellectual impairment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasAlternativeId>HP:0007211</oboInOwl:hasAlternativeId>
+        <obo:IAO_0000115>Abnormal cognition is characterized by deficits in thinking, reasoning, or remembering.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UMLS:C0338656</oboInOwl:hasDbXref>
+        <oboInOwl:hasAlternativeId>HP:0002441</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>HP:0002129</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>HP:0002128</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>UMLS:C0683322</oboInOwl:hasDbXref>
+        <oboInOwl:hasAlternativeId>HP:0002302</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>Cognitive deficits</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0100543</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>Abnormality of cognition</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cognitive impairment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasAlternativeId>HP:0006972</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>Cognitive defects</oboInOwl:hasExactSynonym>
+        <rdfs:comment>An individual with cognitive impairment may experience difficulties in remembering, learning new things, concentrating, or making decisions.</rdfs:comment>
+        <oboInOwl:hasAlternativeId>HP:0006998</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>HP:0002337</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:386806002</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:creator rdf:resource="https://orcid.org/0009-0006-4530-3154"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100738">
+        <rdfs:label>Abnormal eating behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200241"/>
+        <oboInOwl:hasExactSynonym>Abnormal eating behaviour</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>HP:0100738</oboInOwl:id>
+        <obo:IAO_0000115>Abnormal eating habits involve excessive or insufficient consumption of food, or any other abnormal pattern of food consumption.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UMLS:C4021982</oboInOwl:hasDbXref>
+        <rdfs:comment>Please note that this HPO term refers to an abnormal eating habit but does not directly refer to an eating disorder. An eating disorder is a psychological disorder characterized by one or more abnormal eating behaviors.</rdfs:comment>
+        <oboInOwl:creation_date>2011-06-06T05:54:51Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>Abnormal eating behavior</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6624-2975"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2984-1124"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4691-7362"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-6581-7754"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7674-1767"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2598-6622"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4014-4490"/>
+        <terms:creator rdf:resource="https://orcid.org/0009-0006-4530-3154"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100753 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100753">
+        <rdfs:label>Schizophrenia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200430"/>
+        <obo:IAO_0000115>A mental disorder characterized by a disintegration of thought processes and emotional responsiveness. It most commonly manifests as auditory hallucinations, paranoid or bizarre delusions, or disorganized speech and thinking. It is accompanied by significant social or occupational dysfunction. The onset of symptoms typically occurs in young adulthood, with a global lifetime prevalence of about 1%. This term is not a helpful parent term to describe abnormal experiences.</obo:IAO_0000115>
+        <oboInOwl:id>HP:0100753</oboInOwl:id>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:58214004</oboInOwl:hasDbXref>
+        <oboInOwl:creation_date>2011-06-07T09:53:08Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>UMLS:C0036341</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:191526005</oboInOwl:hasDbXref>
+        <rdfs:comment>Positive symptoms, such as delusions and hallucinations (especially of voices), are common, and any Schneiderian first-rank symptoms are particularly indicative of the illness. Negative symptoms include social withdrawal, impairment of ego boundaries, and loss of energy and initiative. Schizophrenia is diagnosed only if symptoms persist for at least one month. The illness can spontaneously remit, run a course with infrequent or frequent relapses, or become chronic. The prognosis has improved with antipsychotic drugs and with vigorous psychological and social management and rehabilitation. The many causes include genetic factors, environmental stress, and various triggering factors.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-7062-8192"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-7941-2961"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9221-9226"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0183-1637"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1785-7126"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2291-6952"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4958-6025"/>
+        <terms:creator rdf:resource="https://orcid.org/0009-0006-4530-3154"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100754">
+        <rdfs:label>Mania</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100851"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200275"/>
+        <oboInOwl:id>HP:0100754</oboInOwl:id>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:231494001</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Hypomania</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A state of abnormally elevated or irritable mood, arousal, and/or energy levels.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Hypomanic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Manic</oboInOwl:hasExactSynonym>
+        <oboInOwl:creation_date>2011-06-07T09:54:05Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>UMLS:C0338831</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1111-7357"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7954-5235"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2897-0458"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4298-5074"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4618-6544"/>
+        <terms:creator rdf:resource="https://orcid.org/0009-0006-4530-3154"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100851 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100851">
+        <rdfs:label>Abnormal emotion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011446"/>
+        <oboInOwl:id>HP:0100851</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>Abnormal emotion/affect behaviour</oboInOwl:hasExactSynonym>
+        <oboInOwl:creation_date>2011-06-23T11:07:13Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>Abnormal emotion/affect behavior</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Abnormal mood/emotion/affect/thought</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Abnormalities in the intensity, frequency, or duration of emotional experiences.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Abnormal emotion processing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Abnormal mood/emotion/affect</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>UMLS:C4020949</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Emotion dysregulation</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1111-7357"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7954-5235"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2897-0458"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4298-5074"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4618-6544"/>
+        <terms:creator rdf:resource="https://orcid.org/0009-0006-4530-3154"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0430133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0430133">
+        <rdfs:label>Tobacco use history</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0032443"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-25T14:24:07Z</terms:date>
+        <obo:IAO_0000115>History of use of tobacco products such as cigarettes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_4000144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_4000144">
+        <rdfs:label>Recent past medical history</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0032443"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-22T11:26:04Z</dc:date>
+        <obo:IAO_0000115>History of events that precede the current presenting condition and are thought to be of potential relevance, having occurred in the hours, days, or weeks before the current condition.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_5200214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_5200214">
+        <rdfs:label>Somatic hallucination</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200423"/>
+        <oboInOwl:hasExactSynonym>Somatic bodily hallucination</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hallucination of bodily sensation</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A type of hallucination that involves the perception of sensory experiences related to the body or its internal organs, systems, or processes. It is a hallucinatory experience that primarily affects bodily sensations rather than external sensory perceptions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-7062-8192"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-7941-2961"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9221-9226"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0183-1637"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1785-7126"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2291-6952"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4958-6025"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_5200230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_5200230">
+        <rdfs:label>Maladaptive fear-related cognitions</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200401"/>
+        <obo:IAO_0000115>Threat-based cognitive biases result in a skewed perception, experience, or processing of internal or external stimuli.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Abnormal fear-related cognitions</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Abnormal fear</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-8430-6039"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0692-412X"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7405-0954"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-0072-5522"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-0224-647X"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-3398-7270"/>
+        <terms:contributor rdf:resource="https://orcid.org/0009-0004-0873-4444"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_5200241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_5200241">
+        <rdfs:label>Recurrent maladaptive behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000708"/>
+        <obo:IAO_0000115>A repeating behavior that is either immediately unproductive or has negative long-term consequences. This includes harmful coping mechanisms such as addictive behavior and failure to control impulses and compulsions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6624-2975"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2984-1124"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4691-7362"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-6581-7754"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7674-1767"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2598-6622"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4014-4490"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_5200242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_5200242">
+        <rdfs:label>Cognitive distortion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011446"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200401"/>
+        <rdfs:comment>Cognitive distortions are often involved in the onset or perpetuation of psychopathological states, such as depression and anxiety.</rdfs:comment>
+        <obo:IAO_0000115>A cognitive distortion is a maladaptive, exaggerated, or irrational thought pattern.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1111-7357"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7954-5235"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2897-0458"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4298-5074"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4618-6544"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_5200243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_5200243">
+        <rdfs:label>Abnormal change in social behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000708"/>
+        <rdfs:comment>Changes in behavior may be observed as a disease such as dementia progresses and may manifest in increased or decreased amounts of passivity, depressive affect, anxiety, self-centeredness, wandering, agitation, paranoia, and so on.</rdfs:comment>
+        <obo:IAO_0000115>An alternation in the habits and emotional tendencies of an individual with a change in behavior that is typically noticed by family members or peers.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-5395-5036"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6886-767X"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-8423-2623"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9114-8737"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0375-6247"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2414-5605"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4487-3589"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_5200275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_5200275">
+        <rdfs:label>Abnormal motivation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000708"/>
+        <obo:IAO_0000115>Behavioral patterns and/or energy/activity levels that are statistically uncommon within a particular culture, maladaptive, and result in personal distress and impairment in the individual&#39;s functioning.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Abnormal energy</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1111-7357"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7954-5235"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2897-0458"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4298-5074"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4618-6544"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_5200330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_5200330">
+        <rdfs:label>Suicide behaviors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200241"/>
+        <rdfs:comment>Suicidal thoughts, ideations, or perseveration should be labeled as HP:0031589.</rdfs:comment>
+        <oboInOwl:hasExactSynonym>Suicidal actions</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sucidality</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Suicide attempts or preparations</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6624-2975"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2984-1124"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4691-7362"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-6581-7754"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7674-1767"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2598-6622"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4014-4490"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_5200334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_5200334">
+        <rdfs:label>Addictive gambling behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0030858"/>
+        <oboInOwl:hasExactSynonym>Gambling addiction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The act of taking chances or engaging in behaviors without restraint, typically involving the wagering of something valuable, in pursuit of acquiring something of higher value.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6624-2975"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2984-1124"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4691-7362"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-6581-7754"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7674-1767"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2598-6622"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4014-4490"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_5200341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_5200341">
+        <rdfs:label>Addictive cannabis use</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0033511"/>
+        <oboInOwl:hasExactSynonym>Marijuana addiction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cannabis addiction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A persistent and compulsive need to use cannabis, despite negative consequences.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Addictive marijuana use</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6624-2975"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2984-1124"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4691-7362"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-6581-7754"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7674-1767"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2598-6622"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4014-4490"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_5200401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_5200401">
+        <rdfs:label>Abnormal judgment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200423"/>
+        <oboInOwl:hasExactSynonym>Abnormal beliefs</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Beliefs that deviate from what is considered rational or within the range of normal human judgment and belief formation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-7062-8192"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-7941-2961"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9221-9226"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0183-1637"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1785-7126"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2291-6952"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4958-6025"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_5200423 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_5200423">
+        <rdfs:label>Abnormal experience of reality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011446"/>
+        <obo:IAO_0000115>Subjective phenomena or perceptions that deviate from what is considered correct or are outside the range of normal human experiences.</obo:IAO_0000115>
+        <rdfs:comment>Abnormal experiences of reality can range from rare perceptions, such as hallucinations or delusions, to more common experiences, such as subtle misinterpretations of events, like cognitive distortions.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-7062-8192"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-7941-2961"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9221-9226"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0183-1637"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1785-7126"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2291-6952"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4958-6025"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_5200430 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_5200430">
+        <rdfs:label>Abnormal psychotic pattern</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200423"/>
+        <obo:IAO_0000115>Any abnormal pattern of psychotic experiences, where an individual has significant disturbances in their thoughts, perceptions, emotions, and behavior, resulting in a loss of touch with reality.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-7062-8192"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-7941-2961"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9221-9226"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0183-1637"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1785-7126"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2291-6952"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4958-6025"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_6000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_6000029">
+        <rdfs:label>Social Anxiety</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000739"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200242"/>
+        <obo:IAO_0000115>Excessive fear of embarrassment, humiliation, or rejection when exposed to possible negative evaluation by others when engaged in a public performance or social interaction.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/human-phenotype-ontology/issues/10167"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

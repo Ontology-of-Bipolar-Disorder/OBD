@@ -1,0 +1,897 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/BICL#"
+     xml:base="http://purl.obolibrary.org/obo/BICL"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/BICL"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0002000">
+        <rdfs:label>defined by construct</rdfs:label>
+        <obo:IAO_0000115>Links an annotation property to a SPARQL CONSTRUCT query which is meant to provide semantics for a shortcut relation.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:resource="https://github.com/ontodev/robot/issues/963"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-8688-6599"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+        <rdfs:label>see also</rdfs:label>
+        <oboInOwl:shorthand>seeAlso</oboInOwl:shorthand>
+        <oboInOwl:hasDbXref>http://www.w3.org/2000/01/rdf-schema#seeAlso</oboInOwl:hasDbXref>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: &#39;Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions&#39;  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&#39;t be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don&#39;t have definitions of &#39;meaning&#39; or &#39;expression&#39; or &#39;property&#39;. For &#39;reference&#39; in the intended sense I think we use the term &#39;denotation&#39;. For &#39;expression&#39;, I think we you mean symbol, or identifier. For &#39;meaning&#39; it differs for class and property. For class we want documentation that let&#39;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&#39;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &#39;intended reader&#39; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+        <rdfs:label xml:lang="en">has related synonym</rdfs:label>
+        <obo:IAO_0000233>https://github.com/information-artifact-ontology/ontology-metadata/issues/21</obo:IAO_0000233>
+        <rdfs:seeAlso>https://github.com/information-artifact-ontology/ontology-metadata/issues/21</rdfs:seeAlso>
+        <obo:IAO_0000115>An alternative label for a class or property that has been used synonymously with the primary term name, but the usage is not strictly correct.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
+        <rdfs:label>term tracker item</rdfs:label>
+        <rdfs:label xml:lang="en">term tracker item</rdfs:label>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasDbXref>IAO:0000233</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>external</oboInOwl:hasOBONamespace>
+        <oboInOwl:shorthand>term_tracker_item</oboInOwl:shorthand>
+        <obo:IAO_0000115 xml:lang="en">An IRI or similar locator for a request or discussion of an ontology term.</obo:IAO_0000115>
+        <oboInOwl:id>term_tracker_item</oboInOwl:id>
+        <rdfs:comment xml:lang="en">The &#39;tracker item&#39; can associate a tracker with a specific ontology term.</rdfs:comment>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <rdfs:label>id</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+        <rdfs:label xml:lang="en">has broad synonym</rdfs:label>
+        <obo:IAO_0000115>An alternative label for a class or property which has a more general meaning than the preferred name/primary label.</obo:IAO_0000115>
+        <rdfs:seeAlso>https://github.com/information-artifact-ontology/ontology-metadata/issues/18</rdfs:seeAlso>
+        <obo:IAO_0000233>https://github.com/information-artifact-ontology/ontology-metadata/issues/18</obo:IAO_0000233>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+        <rdfs:label xml:lang="en">has exact synonym</rdfs:label>
+        <obo:IAO_0000233>https://github.com/information-artifact-ontology/ontology-metadata/issues/20</obo:IAO_0000233>
+        <obo:IAO_0000115>An alternative label for a class or property which has the exact same meaning than the preferred name/primary label.</obo:IAO_0000115>
+        <rdfs:seeAlso>https://github.com/information-artifact-ontology/ontology-metadata/issues/20</rdfs:seeAlso>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label>shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date">
+        <rdfs:label>creation date</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label>has_narrow_synonym</rdfs:label>
+        <rdfs:label xml:lang="en">has narrow synonym</rdfs:label>
+        <obo:IAO_0000115>An alternative label for a class or property which has a more specific meaning than the preferred name/primary label.</obo:IAO_0000115>
+        <rdfs:seeAlso>https://github.com/information-artifact-ontology/ontology-metadata/issues/19</rdfs:seeAlso>
+        <obo:IAO_0000233>https://github.com/information-artifact-ontology/ontology-metadata/issues/19</obo:IAO_0000233>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/depiction"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002175">
+        <rdfs:label xml:lang="en">present in taxon</rdfs:label>
+        <obo:OMO_0002000>PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX in_taxon: &lt;http://purl.obolibrary.org/obo/RO_0002162&gt;
+PREFIX present_in_taxon: &lt;http://purl.obolibrary.org/obo/RO_0002175&gt;
+CONSTRUCT {
+  in_taxon: a owl:ObjectProperty .
+  ?witness rdfs:label ?label .
+  ?witness rdfs:subClassOf ?x .
+  ?witness rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty in_taxon: ;
+    owl:someValuesFrom ?taxon
+  ] .
+}
+WHERE {
+  ?x present_in_taxon: ?taxon .
+  BIND(IRI(CONCAT(
+    &quot;http://purl.obolibrary.org/obo/RO_0002175#&quot;,
+    MD5(STR(?x)),
+    &quot;-&quot;,
+    MD5(STR(?taxon))
+  )) as ?witness)
+  BIND(CONCAT(STR(?x), &quot; in taxon &quot;, STR(?taxon)) AS ?label)
+}</obo:OMO_0002000>
+        <rdfs:comment>The SPARQL expansion for this relation introduces new named classes into the ontology. For this reason it is likely that the expansion should only be performed during a QC pipeline; the expanded output should usually not be included in a published version of the ontology.</rdfs:comment>
+        <obo:IAO_0000115>S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S</obo:IAO_0000115>
+        <rdfs:seeAlso rdf:resource="https://github.com/obophenotype/uberon/wiki/Taxon-constraints"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
+        <rdfs:label>cell</rdfs:label>
+        <oboInOwl:hasDbXref>FBbt:00007002</oboInOwl:hasDbXref>
+        <rdfs:comment>The definition of cell is intended to represent all cells, and thus a cell is defined as a material entity and not an anatomical structure, which implies that it is part of an organism (or the entirety of one).</rdfs:comment>
+        <oboInOwl:hasDbXref>ZFA:0009000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GO:0005623</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001533</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>WBbt:0004017</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KUPO:0000002</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CALOHA:TS-2035</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D002477</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>XAO:0003012</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:68646</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/ubprop#_upper_level"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000057">
+        <rdfs:label>fibroblast</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <oboInOwl:hasDbXref>CALOHA:TS-0362</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:63877</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001482</oboInOwl:hasDbXref>
+        <rdfs:comment>These cells may be vimentin-positive, fibronectin-positive, fsp1-positive, MMP-1-positive, collagen I-positive, collagen III-positive, and alpha-SMA-negative.</rdfs:comment>
+        <oboInOwl:hasDbXref>NCIT:C12482</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A connective tissue cell which secretes an extracellular matrix rich in collagen and other macromolecules. Flattened and irregular in outline with branching processes; appear fusiform or spindle-shaped.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ZFA:0009026</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0000452</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#general_cell_types_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000066">
+        <rdfs:label>epithelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.swissbiopics.org/api/image/Epithelial_cells.svg</foaf:depiction>
+        <obo:IAO_0000115>A cell that is usually found in a two-dimensional sheet with a free surface. The cell has a cytoskeleton that allows for tight cell to cell contact and for cell polarity where apical part is directed towards the lumen and the basal part to the basal lamina.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BTO:0000414</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FBbt:00000124</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>epitheliocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ZFA:0009034</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:66768</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>WBbt:0003672</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-2026</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CARO:0000077</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#general_cell_types_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000081">
+        <rdfs:label>blood cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000988"/>
+        <obo:IAO_0000115>A cell found predominately in the blood.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ZFA:0009044</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:62844</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001773</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#general_cell_types_upper_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000084">
+        <rdfs:label>T cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000542"/>
+        <oboInOwl:hasDbXref>FMA:62870</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A type of lymphocyte whose defining characteristic is the expression of a T cell receptor complex.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D013601</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>T lymphocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>mature T cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>CALOHA:TS-1001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0000782</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009046</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>immature T cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym>T-lymphocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>T-cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>VHOG:0001479</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#general_cell_types_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000094">
+        <rdfs:label>granulocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000081"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
+        <oboInOwl:hasDbXref>CALOHA:TS-0422</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0000539</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009048</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0001026</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>granular leucocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>FMA:62854</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A leukocyte with abundant granules in the cytoplasm.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>polymorphonuclear leukocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>granular leukocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000095">
+        <rdfs:label>neuron associated cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002319"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000113">
+        <rdfs:label>mononuclear phagocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000518"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000842"/>
+        <oboInOwl:hasDbXref>BTO:0001433</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009064</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A vertebrate phagocyte with a single nucleus.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000115">
+        <rdfs:label>endothelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <oboInOwl:hasDbXref>ZFA:0009065</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0001176</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0278</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>endotheliocyte</oboInOwl:hasExactSynonym>
+        <rdfs:comment>From FMA: 9.07.2001: Endothelial cell has always been classified as a kind of epithelial cell, specifically a squamous cell but that is not true. First, endothelial cell can either be squamous or cuboidal (e.g. high-endothelial cell) and secondly, it has different embryological derivation (mesodermal) than a true epithelial cell (ectodermal and endodermal). The basis for present classification is the fact that it comprises the outermost layer or lining of anatomical structures (location-based) but a better structural basis for the differentia is the cytoskeleton of the cell. Endothelial cell has vimentin filaments while an epithelial cell has keratin filaments. [Onard].</rdfs:comment>
+        <oboInOwl:hasDbXref>FMA:66772</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>An endothelial cell comprises the outermost layer or lining of anatomical structures and can be squamous or cuboidal. In mammals, endothelial cell has vimentin filaments and is derived from the mesoderm.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000125">
+        <rdfs:label>glial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000095"/>
+        <oboInOwl:hasDbXref>ZFA:0009073</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A non-neuronal cell of the nervous system. They not only provide physical support, but also respond to injury, regulate the ionic and chemical composition of the extracellular milieu. Guide neuronal migration during development, and exchange metabolites with neurons.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>FBbt:00005144</oboInOwl:hasDbXref>
+        <rdfs:comment>Not all glial cells develop from glioblasts, with microglia developing from the mesoderm instead. See https://github.com/obophenotype/cell-ontology/issues/1571</rdfs:comment>
+        <oboInOwl:hasDbXref>CALOHA:TS-0415</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>neuroglial cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>BTO:0002606</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>neuroglia</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>FMA:54536</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#general_cell_types_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000150">
+        <rdfs:label>glandular epithelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
+        <oboInOwl:hasDbXref>CALOHA:TS-2085</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:86494</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A specialized epithelial cell that is capable of synthesizing and secreting certain biomolecules.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000151">
+        <rdfs:label>secretory cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <oboInOwl:hasDbXref>FMA:86916</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A cell that specializes in controlled release of one or more substances.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BTO:0003659</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000182">
+        <rdfs:label>hepatocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
+        <oboInOwl:hasDbXref>FMA:14515</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0454</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009111</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>The main structural component of the liver. They are specialized epithelial cells that are organized into interconnected plates called lobules. Majority of cell population of liver, polygonal in shape, arranged in plates or trabeculae between sinusoids; may have single nucleus or binucleated.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BTO:0000575</oboInOwl:hasDbXref>
+        <rdfs:comment>Hepatocytes are reportedly MHC Class I-positive and MHC Class II-positive.</rdfs:comment>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000219">
+        <rdfs:label>motile cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000115>A cell that moves by its own activities.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ZFA:0009136</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000233">
+        <rdfs:label>platelet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000081"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
+        <rdfs:comment>Platelets are reportedly CCR1-positive, CCR2-negative, CCR3-positive, CCR4-positive, CCR5-negative, CCR6-negative, CCR7-negative, CCR8-negative, CCR9-negative, CCR10-negative, CD16-positive, CD23-positive, CD32-positive, CD40-positive, CD41-positive CD42-positive, CD61-positive, CD62P-positive, CD64-positive, CD89-positive, CD102-positive, CD147-positive (activated platelets), CD154-positive (activated platelets), CD162-positive, CD209, CD282-positive, CD284-positive, CD289-positive, CD181-negative, CD182-negative, CD183-negative, CD184-positive, CLEC2-positive, GPVI-positive, JAMC-positive, PAR1-positive, PAR2-negative, PAR3-positive, PAR4-positive, TSP1-positive, and TXA2R-positive. Platelets can reportedly produce CCL2, CCL3, CCL5, CCL7, CCL17, CD40L, CXCL1, CXCL4, CXCL4L1, CXCL5, CXCL7, CXCL8, CXCL12, EGF, factor V, factor VII, factor XI, factor XIII, bFGF, histamine, IGF-1, IL-1beta, PAI-1, PDGF, plasminogen, protein S, serotonin, TGF-beta, TFPI, VEGF, and vWF.</rdfs:comment>
+        <oboInOwl:hasDbXref>FMA:62851</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>anucleate thrombocyte</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A non-nucleated disk-shaped cell formed by extrusion from megakaryocytes, found in the blood of all mammals, and mainly involved in blood coagulation.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BTO:0000132</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>enucleate thrombocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>CALOHA:TS-0803</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>blood platelet</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#blood_and_immune_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000234">
+        <rdfs:label>phagocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000219"/>
+        <oboInOwl:hasDbXref>BTO:0001044</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:83806</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Any cell capable of ingesting particulate matter via phagocytosis.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D010586</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009140</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000235">
+        <rdfs:label>macrophage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000113"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
+        <rdfs:comment>Morphology: Diameter 30_M-80 _M, abundant cytoplasm, low N/C ratio, eccentric nucleus. Irregular shape with pseudopods, highly adhesive. Contain vacuoles and phagosomes, may contain azurophilic granules; markers: Mouse &amp; Human: CD68, in most cases CD11b. Mouse: in most cases F4/80+; role or process: immune, antigen presentation, &amp; tissue remodelling; lineage: hematopoietic, myeloid.</rdfs:comment>
+        <oboInOwl:hasExactSynonym>histiocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>FMA:63261</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0000801</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A mononuclear phagocyte present in variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D008264</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0587</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009141</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:83585</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#blood_and_immune_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#general_cell_types_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000255">
+        <rdfs:label>eukaryotic cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <oboInOwl:hasDbXref>MESH:D005057</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Any cell that only exists in Eukaryota.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000518">
+        <rdfs:label>phagocyte (sensu Vertebrata)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000234"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000255"/>
+        <obo:IAO_0000115>A phagocyte in vertebrates that is able to phagocytosis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000540">
+        <rdfs:label>neuron</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002319"/>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.swissbiopics.org/api/image/Neuron_cells.svg</foaf:depiction>
+        <oboInOwl:hasExactSynonym>nerve cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>CALOHA:TS-0683</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0000938</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001483</oboInOwl:hasDbXref>
+        <rdfs:comment>These cells are also reportedly CD4-negative and CD200-positive. They are also capable of producing CD40L and IFN-gamma.</rdfs:comment>
+        <obo:IAO_0000115>The basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>FMA:54527</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FBbt:00005106</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>WBbt:0003679</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009248</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#general_cell_types_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000542">
+        <rdfs:label>lymphocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000842"/>
+        <obo:IAO_0000115>A lymphocyte is a leukocyte commonly found in the blood and lymph that has the characteristics of a large nucleus, a neutral staining cytoplasm, and prominent heterochromatin.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ZFA:0009250</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0000775</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001535</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:62863</oboInOwl:hasDbXref>
+        <rdfs:comment>Editors note: consider adding taxon constraint to vertebrata (PMID:18025161)</rdfs:comment>
+        <oboInOwl:hasDbXref>CALOHA:TS-0583</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D008214</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000576">
+        <rdfs:label>monocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000113"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
+        <oboInOwl:hasDbXref>ZFA:0009265</oboInOwl:hasDbXref>
+        <rdfs:comment>Morphology: Mononuclear cell, diameter, 14 to 20 _M, N/C ratio 2:1-1:1. Nucleus may appear in variety of shapes: round, kidney, lobulated, or convoluted. Fine azurophilic granules present; markers: CD11b (shared with other myeloid cells), human: CD14, mouse: F4/80-mid,GR1-low; location: Blood, but can be recruited into tissues; role or process: immune &amp; tissue remodelling; lineage: hematopoietic, myeloid.</rdfs:comment>
+        <oboInOwl:hasDbXref>BTO:0000876</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Myeloid mononuclear recirculating leukocyte that can act as a precursor of tissue macrophages, osteoclasts and some populations of tissue dendritic cells.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>FMA:62864</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0638</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#blood_and_immune_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#general_cell_types_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000652">
+        <rdfs:label>pinealocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000710"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002319"/>
+        <oboInOwl:hasDbXref>ZFA:0009284</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>This cell type produces and secretes melatonin and forms the pineal parenchyma. Extending from each cell body, which has a spherical, oval or lobulated mucleus, are one or more tortuous basophilic processes, containing parallel microtubules known as synaptic ribbons. These processes end in expanded terminal buds near capillaries or less, frequently, ependymal cells of the pineal recess. The terminal buds contain granular endoplasmic reticulum, mitochondria and electron-dense cored vesicles, which store monoamines and polypeptide hormones, release of which appears to require sympathetic innervation.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>FMA:83417</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0001068</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000710">
+        <rdfs:label>neurecto-epithelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002077"/>
+        <oboInOwl:hasDbXref>BTO:0004301</oboInOwl:hasDbXref>
+        <oboInOwl:hasBroadSynonym>neuroepithelial cell</oboInOwl:hasBroadSynonym>
+        <obo:IAO_0000115>Epithelial cells derived from neural plate and neural crest.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>FMA:70557</oboInOwl:hasDbXref>
+        <rdfs:comment>The term &quot;neuroepithelial cell&quot; is used to describe both this cell type and sensory epithelial cell (CL:0000098).</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000738">
+        <rdfs:label>leukocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000219"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000255"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000988"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002242"/>
+        <oboInOwl:hasExactSynonym>leucocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>white blood cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>NCIT:C12529</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>An achromatic cell of the myeloid or lymphoid lineages capable of ameboid movement, found in blood or other tissue.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D007962</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009309</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0000751</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>immune cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>CALOHA:TS-0549</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:62852</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000763 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000763">
+        <rdfs:label>myeloid cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000988"/>
+        <oboInOwl:hasDbXref>CALOHA:TS-0647</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009324</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D022423</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0001441</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A cell of the monocyte, granulocyte, mast cell, megakaryocyte, or erythroid lineage.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000766 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000766">
+        <rdfs:label>myeloid leukocyte</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
+        <obo:IAO_0000115>A cell of the monocyte, granulocyte, or mast cell lineage.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ZFA:0009326</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000775">
+        <rdfs:label>neutrophil</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000094"/>
+        <oboInOwl:hasBroadSynonym>polymorphonuclear leukocyte</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>neutrophilic leucocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>neutrophil leukocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasBroadSynonym>polynuclear neutrophilic leucocyte</oboInOwl:hasBroadSynonym>
+        <obo:IAO_0000115>Any of the immature or mature forms of a granular leukocyte that in its mature form has a nucleus with three to five lobes connected by slender threads of chromatin, and cytoplasm containing fine inconspicuous granules and stainable by neutral dyes.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>poly</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>neutrophil leucocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ZFA:0009327</oboInOwl:hasDbXref>
+        <oboInOwl:hasBroadSynonym>polymorphonuclear leucocyte</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>PMN</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>neutrophilic leukocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>BTO:0000130</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>neutrocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>CALOHA:TS-0688</oboInOwl:hasDbXref>
+        <oboInOwl:hasBroadSynonym>polymorphonuclear neutrophil</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>FMA:62860</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D009504</oboInOwl:hasDbXref>
+        <oboInOwl:hasBroadSynonym>polynuclear neutrophilic leukocyte</oboInOwl:hasBroadSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#blood_and_immune_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000842 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000842">
+        <rdfs:label>mononuclear cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002242"/>
+        <oboInOwl:hasExactSynonym>mononuclear leukocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>FMA:86713</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A leukocyte with a single non-segmented nucleus in the mature form.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BTO:0000878</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0768</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>peripheral blood mononuclear cell</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasDbXref>ZFA:0009357</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#blood_and_immune_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000988 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000988">
+        <rdfs:label>hematopoietic cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000115>A cell of a hematopoietic lineage.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>haematopoietic cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>FMA:83598</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>hemopoietic cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ZFA:0005830</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>haemopoietic cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>BTO:0000574</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-2017</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:70366</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002077">
+        <rdfs:label>ecto-epithelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-06-29T03:38:22Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>ZFA:0009385</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>An epithelial cell derived from ectoderm.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>FMA:69074</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002242">
+        <rdfs:label>nucleate cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-09-07T03:32:33Z</oboInOwl:creation_date>
+        <obo:IAO_0000115>A cell containing at least one nucleus.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>FMA:67513</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002319">
+        <rdfs:label>neural cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-09-15T01:34:57Z</oboInOwl:creation_date>
+        <obo:IAO_0000115>A cell that is part of the nervous system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CALOHA:TS-2040</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:70333</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0011026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0011026">
+        <rdfs:label>progenitor cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000115>A precursor cell that has a tendency to differentiate into a specific type of cell. They are descendants of stem cells, only they are more constrained in their differentiation potential or capacity for self-renewal, and are often more limited in both senses.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-5208-3432"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1001601 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1001601">
+        <rdfs:label>adrenal gland glandular cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000150"/>
+        <oboInOwl:hasRelatedSynonym>adrenal glandular cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>suprarenal gland glandular cell</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115>Hormone secreting cell located in the cortex of adrenal gland. Glandular cells in the adrenal cortex secrete mineralocorticoids, glucocorticoids and androgens.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>adrenal gland glandular cells</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>CALOHA:TS-2177</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1001602 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1001602">
+        <rdfs:label>cerebral cortex endothelial cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000115"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002319"/>
+        <oboInOwl:hasDbXref>CALOHA:TS-2372</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>endothelial cells of cerebral cortex</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115>Endothelial cells forming the walls of the capillaries within the cerebral cortex.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>cerebral cortex endothelial cells</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1001603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1001603">
+        <rdfs:label>lung macrophage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000235"/>
+        <obo:IAO_0000115>Circulating macrophages and tissue macrophages (alveolar macrophages) of lung.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CALOHA:TS-0576</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>lung macrophages</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+
