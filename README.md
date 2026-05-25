@@ -17,51 +17,50 @@ BDON represents how these factors interact with each other over time and contrib
 #### Semantic Harmonization of Mental Health Assessments
 One major goal of BDON is to support the semantic harmonization and phenotyping of heterogeneous mental health assessment instruments. Mental health research commonly relies on multiple questionnaires and clinical instruments, such as:
 
-  ·PHQ-9
-  ·YMRS
-  ·MDQ
-  ·ASRM
-  ·DIGS
-  ·GAD-7
+  - PHQ-9
+  - YMRS
+  - MDQ
+  - ASRM
+  - DIGS
+  - GAD-7
 
 However, these instruments often differ in:
 
-  ·wording
-  ·scoring systems
-  ·temporal windows
-  ·response formats
-  ·underlying clinical assumptions
+  - wording
+  - scoring systems
+  - temporal windows
+  - response formats
 
 BDON provides a semantic framework to align these heterogeneous assessment tools, enabling:
 
-  ·cross-instrument querying
-  ·semantic integration
-  ·longitudinal analysis
-  ·phenotype extraction
-  ·interoperable mental health research
+  - cross-instrument querying
+  - semantic integration
+  - longitudinal analysis
+  - phenotype extraction
+  - interoperable mental health research
   
 This approach helps researchers analyze multiple assessment instruments simultaneously in a more consistent and computable manner.
 
-### Long-Term Vision
+#### Long-Term Vision
 The long-term goal of BDON is to support:
 
-  ·standardized psychiatric research data
-  ·semantic interoperability across datasets
-  ·integration with EHR systems
-  ·ontology-based clinical decision support
-  ·learning health system applications
+  - standardized psychiatric research data
+  - semantic interoperability across datasets
+  - integration with EHR systems
+  - ontology-based clinical decision support
+  - learning health system applications
 
 BDON is also intended to facilitate future integration of multimodal data sources, including:
 
-  ·clinical records
-  ·questionnaires
-  ·genomic data
-  ·behavioral data
-  ·environmental and social determinants of health
+  - clinical records
+  - questionnaires
+  - genomic data
+  - behavioral data
+  - environmental and social determinants of health
 
 More information can be found at http://obofoundry.org/ontology/bdon
 
-### Technical Foundations
+#### Technical Foundations
 
 BDON is developed following OBO Foundry principles.
 
