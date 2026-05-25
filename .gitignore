@@ -66,4 +66,4 @@ src/patterns/data/**/*.txt
 src/patterns/pattern_owl_seed.txt
 src/patterns/all_pattern_terms.txt
 
-# End of ODK-managed rules
+# End of ODK-managed rules.DS_Store
