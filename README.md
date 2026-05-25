@@ -14,7 +14,7 @@ BDON (Bipolar Disorder Ontology) is an application ontology designed to support 
 
 BDON represents how these factors interact with each other over time and contribute to the development, progression, and heterogeneity of bipolar disorder.
 
-# Semantic Harmonization of Mental Health Assessments
+## Semantic Harmonization of Mental Health Assessments
 One major goal of BDON is to support the semantic harmonization and phenotyping of heterogeneous mental health assessment instruments. Mental health research commonly relies on multiple questionnaires and clinical instruments, such as:
 
   ·PHQ-9
@@ -42,10 +42,40 @@ BDON provides a semantic framework to align these heterogeneous assessment tools
   
 This approach helps researchers analyze multiple assessment instruments simultaneously in a more consistent and computable manner.
 
+## Long-Term Vision
+The long-term goal of BDON is to support:
 
+  ·standardized psychiatric research data
+  ·semantic interoperability across datasets
+  ·integration with EHR systems
+  ·ontology-based clinical decision support
+  ·learning health system applications
 
+BDON is also intended to facilitate future integration of multimodal data sources, including:
+
+  ·clinical records
+  ·questionnaires
+  ·genomic data
+  ·behavioral data
+  ·environmental and social determinants of health
 
 More information can be found at http://obofoundry.org/ontology/bdon
+
+## Technical Foundations
+
+BDON is developed following OBO Foundry principles.
+
+Upper ontology: Basic Formal Ontology (BFO)
+Development and Maintenance: Ontology Development Kit (ODK)
+Representation languages: OWL / RDF
+
+## Project History
+
+The previous name of BDON was OBD (Ontology of Bipolar Disorder). Due to updated OBO Foundry naming conventions, the project was renamed to BDON. Previous versions of the ontology are preserved in the OBD-Archive repository.
+
+## Related Publication
+
+Tian, Y., He, Y., Richesson, R., Mclnnis, M. (2025). Integrative Ontology of Bipolar Disorder (OBD): Advancing Bipolar Disorder Research Through an Interoperable Ontological Framework. In: Saeki, M., et al. Advances in Conceptual Modeling. ER 2024. Lecture Notes in Computer Science, vol 14932. Springer, Cham. DOI: https://doi.org/10.1007/978-3-031-75599-6_13.<img width="468" height="125" alt="image" src="https://github.com/user-attachments/assets/f5b773d5-b181-478d-bfaa-39df1bf2f681" />
 
 ## Versions
 
